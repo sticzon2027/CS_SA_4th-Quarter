@@ -1,0 +1,211 @@
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+	overflow-x: hidden;
+	background-image: url('images/bg2.jpeg');
+	font-family: 'Alice';
+	background-repeat: no-repeat;
+	background-attachment: fixed; 
+	background-size: 100% 100%;
+}
+
+header {
+	background-color: #ebd1c3;
+	color: white;
+	padding: 20px;
+}
+
+header nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	align-items: center;
+	justify-content: left;
+}
+
+header nav ul li {
+	margin-right: 20px;
+}
+
+header nav ul li a {
+	display: inline-block;
+	color: black;
+	text-decoration: none;
+	padding: 10px;
+}
+
+header nav ul li a:hover {
+	background-color: #f0ddd3;
+}
+
+.submenu {
+	display: none;
+	position: absolute;
+	background-color: #333;
+	padding: 10px;
+	z-index: 1;
+}
+
+.categories:hover .submenu {
+	display: block;
+}
+
+.submenu a {
+	display: block;
+	color: white;
+	text-decoration: none;
+	padding: 5px 0;
+}
+
+main {
+	padding: 20px;
+	transition: margin-right 0.3s;
+}
+
+h1, h2, h3 {
+	color: #333;
+}
+
+ul {
+	list-style-type: none;
+	padding: 0;
+}
+#logo img {
+	width: 100px;
+	height: auto;
+}
+.wrap{
+  overflow: hidden;
+  position: relative;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.row1{
+  position: relative;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+[class*="col-"] {
+  float: left;
+  padding: 15px;
+}
+
+.header {
+	overflow: hidden;
+	background-color: #d4b5a5;
+	font-family: "Raleway", serif;
+	font-weight: bold;
+	color: black;
+	height: 150px;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+	width: 100.7%;
+	margin: 0;
+	padding: 0;
+	margin-top: -8px;
+	margin-right: 200px;
+	display: flex;
+	font-size: 60px;
+}
+
+/* For mobile phones: */
+[class*="col-"] {
+  width: 100%;
+}
+
+@media only screen and (min-width: 600px) {
+  /* For tablets: */
+  .col-s-1 {width: 8.33%;}
+  .col-s-2 {width: 16.66%;}
+  .col-s-3 {width: 25%;}
+  .col-s-4 {width: 33.33%;}
+  .col-s-5 {width: 41.66%;}
+  .col-s-6 {width: 50%;}
+  .col-s-7 {width: 58.33%;}
+  .col-s-8 {width: 66.66%;}
+  .col-s-9 {width: 75%;}
+  .col-s-10 {width: 83.33%;}
+  .col-s-11 {width: 91.66%;}
+  .col-s-12 {width: 100%;}
+}
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+}
+
+.inline{
+	display: inline-block;
+}
+.text{
+	overflow: hidden;
+}
+.container {
+	text-align: center;
+	padding: 10px 20px;
+	font-size: 18px;
+}
+
+.circle{
+	border-radius: 50%;
+	border: 2px solid #000000;
+	justify-content: center;
+	align-items: center;
+	width: 350px;
+	margin-right: 2%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 15%;
+	margin-bottom: 3%;
+}
+
+.name{
+	margin-top: 1%;
+	margin-bottom: -1%;
+	font-size: 36px;
+	text-align: center; 
+	font-family: 'Alice';
+	font-weight: bold;
+}
+
+.ref{
+	margin-top: 1%;
+	margin-bottom: -1%;
+	font-size: 25px;
+	text-align: center; 
+	font-family: 'Alice';
+}
+
+.contri{
+	font-size: 30px;
+	text-align: center;
+	font-family: 'Alice';
+}
+
+.gray {
+    float:left;
+    background-color: #f0ddd3;
+	height: 947px;
+}
